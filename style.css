@@ -88,3 +88,23 @@
     display: flex;
     justify-content: center;
 }
+
+.cursor {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, #fdabf6, #7c62b9);
+    position: fixed;
+    pointer-events: none;
+    transform: translate(-50%, -50% );
+    box-shadow: 0 0 40px #fdabf6;
+}
+
+* {
+    cursor: none !important;
+}
+
+html,
+body {
+    cursor: none;
+}
