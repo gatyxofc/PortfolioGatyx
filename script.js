@@ -25,5 +25,15 @@ function animateCursor() {
 
 animateCursor()
 
+const links = document.querySelectorAll("a");
+
+links.forEach(item => {
+    item.addEventListener("mouseenter", () => {
+        cursor.classList.add("cursor-active")
+    })
+    item.addEventListener("mouseleave", () => {
+        cursor.classList.remove("cursor-active")
+    })
+})
 
 
