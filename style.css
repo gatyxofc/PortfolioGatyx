@@ -1,3 +1,10 @@
+body {
+            background-image: linear-gradient(to right, #20f7d3, #4e3cf3);
+            img {
+                border-radius: 50%;
+            }
+        }
+
 .hero {
     display:inline-flex;
     justify-content: left;
@@ -6,7 +13,7 @@
     padding: 30px;
     margin: 10px;
     gap: 30px;
-    background-image: linear-gradient(to right, #ffa9ec, #390352);
+    background-image: linear-gradient(to right, #c3a9ff, #51ff7d);
     background-size: cover;
     border-radius: 100px;
     font-family: 'Anta', sans-serif;
@@ -52,7 +59,7 @@
         text-align: right;
         font-size: 18px;
     }
-    background-image: linear-gradient(to right, #ffb1e5, #98a8f0);
+    background-image: linear-gradient(to right, #a878f5, #f09898);
     padding: 5px;
     border-radius: 30px;
     display: inline-flex;
@@ -62,7 +69,7 @@
 }
 
 .links {
-    background-image: linear-gradient(to right, #91b2ee, #ffb2b2);
+    background-image: linear-gradient(to right, #ce329f, #b2faff);
     border-radius: 50px;
     display:inline-flex;
     flex-direction: row;
@@ -113,4 +120,29 @@ body {
 .cursor-active {
     transform: translate(-50%, -50%) scale(1.4);
     border-radius: 50%;
+}
+
+.hero-music-container {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-music {
+    display: inline-block;
+    align-items: center;
+    background-image: linear-gradient(to right, #ee9750, #d85252);
+    border-radius: 20px;
+    padding: 10px;
+    h2 {
+        font-family: 'Anta', sans-serif;
+    }
+    font-family: 'Commissioner', sans-serif;
+}
+
+.hero-music img {
+    transition: 0.6s;
+}
+
+.hero-music img:hover {
+    transform: rotate(360deg) scale(1.2);
 }
