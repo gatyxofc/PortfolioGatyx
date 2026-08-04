@@ -113,5 +113,4 @@ body {
 .cursor-active {
     transform: translate(-50%, -50%) scale(1.4);
     border-radius: 50%;
-    transition: transform 0.3s;
 }
