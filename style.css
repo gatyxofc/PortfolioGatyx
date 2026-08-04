@@ -98,6 +98,7 @@
     pointer-events: none;
     transform: translate(-50%, -50% );
     box-shadow: 0 0 40px #fdabf6;
+    transition: transform 0.3s;
 }
 
 * {
